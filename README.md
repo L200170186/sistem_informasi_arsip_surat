@@ -1,7 +1,7 @@
 # Sistem Informasi Arsip Surat
 sistem informasi ini dibuat dalam rangka tugas akhir. menggunakan bahasa pemrograman php dengan framework Codeigniter 4.
 
-# fitur
+# Fitur
 hanya terdapat 1 admin
 1. CRUD data surat masuk
 2. CRUD data surat keluar
@@ -12,11 +12,12 @@ hanya terdapat 1 admin
 7. Mencetak laporan surat masuk dan surat keluar berdasarkan tanggal (dari tanggal sampai tanggal)
 8. Mengupload hasil scan surat masuk dan surat keluar,
 
-# akun
+# Akun
 username : admin123
 password : admin123
 
 # Cara instalasi
 1. import database arsip_surat.sql
 2. ubah setting database pada .env
-3. jalankan dengan "php spark serve"
+3. composer install = untuk generate folder vendor/
+4. jalankan dengan "php spark serve"
